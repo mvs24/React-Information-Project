@@ -1,0 +1,63 @@
+.DataInfo{
+  margin-left: 40%;
+  margin-right: 40%;
+  transform: translateX(-50%);
+}
+.Header{
+    border: 1px solid rgb(83, 94, 189);
+    background:linear-gradient(to right bottom ,rgb(155, 161, 216) ,rgb(52, 52, 163)) ;
+    color: #fff;
+    width: 207%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+    margin-left: 0.3rem;
+    padding: 0.2rem;
+}
+@media screen and (min-width:768px){
+  .Header{
+    width: 205%;
+  }
+}
+.DataInfo input{
+  width: 200%;
+  margin: 0.2rem;
+  border-radius: 0.1rem;
+  outline: none;
+  padding: 0.4rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.DataInfo textarea{
+  width: 210%;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  outline: none;
+  border-radius: 0.5rem;
+}
+@media screen and (min-width:768px){
+  .DataInfo textarea{
+    width: 205%;
+  }
+}
+.DataInfo button{
+  padding: 0.2rem;
+  text-align: center;
+  margin: 0.3rem auto;
+  width: 10rem;
+  font: bold;
+  outline: none;
+  border-radius: 0.1rem;
+  margin-left: 40%;
+}
+.DataInfo button:active{
+  background-color: rgb(106, 112, 207);
+  outline: none;
+  color: white;
+  transform: scale(1.15);
+}
+@media screen and (min-width:768px){
+  .DataInfo button{
+    margin-left: 70%;
+  }
+}

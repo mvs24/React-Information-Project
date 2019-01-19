@@ -1,0 +1,51 @@
+.Response{
+   display: grid;
+   grid-template-rows: repeat(2,1fr);
+   justify-content: center;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+.Info{
+    background: linear-gradient(to left,rgb(137, 151, 212),rgb(163, 99, 223));
+    color: rgb(240, 234, 234);
+    text-transform: capitalize;
+    max-width: 100%;
+    padding: 1rem;
+}
+.Description{
+    width: 20%;
+}
+.Info p{
+    width: 30%;
+}
+.First{
+    text-align: center;
+}
+.validation{
+    border: 1px solid rgb(83, 94, 189);
+    background:linear-gradient(to right bottom ,rgb(155, 161, 216) ,rgb(52, 52, 163)) ;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    width: 60%;
+    display: grid;
+    justify-content: center;
+    margin-left: 26%;
+}
+.Response button{
+    padding: 0.2rem;
+    text-align: center;
+    margin: 0.3rem auto;
+    width: 10rem;
+    font: bold;
+    outline: none;
+    border-radius: 0.1rem;
+    margin-right: 0.8rem;
+    margin-top: 1rem;
+}
+.Response button:active{
+    background-color: rgb(106, 112, 207);
+    outline: none;
+    color: white;
+    transform: scale(1.15);
+}
